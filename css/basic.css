@@ -127,23 +127,60 @@ header {
 
 
 /*#s0 버튼 설정*/
+a {
+    text-decoration: none;
+}
+
+
 .profile_btn {
-    border: 1px solid red;
-    margin-top: 200px;
+    margin-left: 95px;
+    margin-top: 120px;
 }
 .profile_btn > span {
-    font-size: 80px;
+    font-size: 100px;
+    color: #000;
 }
-.web_btn {}
-.web_btn span {}
-.mobile_btn {}
-.mobile_btn span {}
-.repon_btn {}
-.repon_btn span {}
-.boot_btn {}
-.boot_btn span {}
-.photoshop_btn {}
-.photoshop_btn span {}
+.web_btn {
+    margin-left: 105px;
+    margin-top: 120px;
+}
+.web_btn > span {
+    font-size: 100px;
+    color: #000;
+}
+.mobile_btn {
+    margin-left:140px;
+    margin-top: 130px;
+}
+.mobile_btn > span {
+    font-size: 90px;
+    color: #000;
+}
+.repon_btn {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.repon_btn > span {
+    text-align: center;
+    font-size: 80px;
+    color: #000;
+}
+.boot_btn {
+    margin-left: 146px;
+    margin-top: 130px;
+}
+.boot_btn span {
+    font-size: 90px;
+    color: #000;
+}
+.photoshop_btn {
+    margin-left: 146px;
+    margin-top: 138px;
+}
+.photoshop_btn span {
+    font-size: 85px;
+    color: #000;
+}
 
 
 
@@ -166,9 +203,7 @@ header {
 }
 
 .marquee span {
-    font-size: 100px;
-    padding: 0 3vw;
-    margin-left: 100px;
+    padding: 0 2vw;
 }
 .marquee:hover .marquee__inner {
     animation-play-state: running;
@@ -200,7 +235,7 @@ header {
     overflow: hidden;
 }
 .menu2 {
-    background: #3c671c;
+    background: #d4ecc3;
     border-radius: 100%;
     overflow: hidden;
 }
@@ -210,7 +245,7 @@ header {
     overflow: hidden;
 }
 .menu4 {
-    background:#e381c8;
+    background:#e097cc;
     border-radius: 0 0 0 50%;
     overflow: hidden;
 }
@@ -220,7 +255,7 @@ header {
     overflow: hidden;
 }
 .menu6 {
-    background:#ff7510;
+    background:#ffd4b6;
     border-radius: 50% 0 50% 0;
     overflow: hidden;
 }
@@ -294,8 +329,9 @@ header {
 
 
 .profile_left {
-    border: 1px solid orange;
+    text-align: center;
     width: 20vw;
+    padding-top: 150px;
     border-right: 3px solid #000;
 }
 .profile_left img {
@@ -374,19 +410,19 @@ header {
 }
 #skillbar_pho
 {
-    background-color:#e8def9;
+    background-color:#c5c5c5;
 }
 #skillbar_html
 {
-    background-color:#e8def9;
+    background-color:#c5c5c5;
 }
 #skillbar_css
 {
-    background-color:#e8def9;
+    background-color:#c5c5c5;
 }
 #skillbar_js
 {
-    background-color:#e8def9;
+    background-color:#c5c5c5;
 }
 .skill_bar_percent 
 {
@@ -515,15 +551,15 @@ header {
 .mobile_right {
     padding: 150px 200px 200px 13vw;
 }
-.mobile_right h2 {
+.mobile_right > h2 {
     font-size: 50px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.mobile_right span {
+.mobile_right > span {
     font-size: 25px;
 }
-.mobile_right p {
+.mobile_right > p {
     font-family: 'Noto Sans KR', sans-serif;
     font-size:14px;
     font-weight: 100;
@@ -549,5 +585,100 @@ header {
 .resp_tit h1 {
     font-size:80px;
     letter-spacing: 5px;
+    text-align: right;
+    margin-right:100px;
+}
+
+
+
+.resp_wrap {
+    display: flex;
+}
+
+
+.resp_left {
+    padding: 250px 200px 200px 13vw;
+}
+.resp_left > h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.resp_left > span {
+    font-size: 25px;
+}
+.resp_left > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    font-weight: 100;
+    margin: 20px 0 40px 0;
+}
+
+.resp_right {
+    padding: 50px 0 0 10vw;
 }
 /*-----------------------------------.section #s4*/
+
+
+
+
+
+
+
+
+#s5 {
+    background:url('../img//graphpaper.jpg') no-repeat
+}
+.s5_cont {
+    margin-top: 80px;
+}
+.boot_tit {
+    border-bottom: 3px solid #000;
+}
+.boot_tit h1 {
+    font-size:80px;
+    letter-spacing: 5px;
+    margin-left: 100px;
+}
+
+.boot_wrap {
+    display: flex;
+}
+
+.boot_left {
+    padding: 50px 0 0 10vw;
+}
+
+.boot_right {
+    padding: 250px 200px 200px 5vw;
+}
+.boot_right > h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.boot_right > span {
+    font-size: 25px;
+}
+.boot_right > p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    font-weight: 100;
+    margin: 20px 0 40px 0;
+}
+/*-----------------------------------.section #s5*/
+
+
+
+
+/*view site button*/
+.web_view_btn, .mobile_view_btn, .resp_view_btn , .boot_view_btn {
+    font-size: 25px;
+}
+.web_view_btn a , .mobile_view_btn a , .resp_view_btn a , .boot_view_btn a {
+    color: #c2c2c2;
+    transition: 0.8s;
+}
+    .web_view_btn a:hover, .mobile_view_btn a:hover ,.resp_view_btn a:hover , .boot_view_btn a:hover{
+        color: #000000;
+    }
