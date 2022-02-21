@@ -28,3 +28,7 @@ $('.slider_clock').EasySlides({
     })
 
     
+function winOpen(){
+    window.open('https://leehb0927.github.io/sfw_mobile/','popup','width=515, height=900, left=100, top=20')
+}
+/*mobile site vie 창 넓이 */
