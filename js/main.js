@@ -27,8 +27,31 @@ $('.slider_clock').EasySlides({
     'autoplay':true,
     })
 
-    
+ /*mobile site view 창 넓이 */   
 function winOpen(){
     window.open('https://leehb0927.github.io/sfw_mobile/','popup','width=515, height=900, left=100, top=20')
 }
-/*mobile site vie 창 넓이 */
+
+
+
+function diorOpenM(){
+    window.open(
+        'https://leehb0927.github.io/responsible_dior/','popup','width=515, height=900, left=100, top=20'
+        )
+}
+function diorOpenT(){
+    window.open(
+        'https://leehb0927.github.io/responsible_dior/','popup', 'width=1091 height=900, left=100, top=20'
+    )
+}
+
+function chezOpenM(){
+    window.open(
+        'https://leehb0927.github.io/cheznousaparis/','popup','width=515, height=900, left=100, top=20'
+        )
+}
+function chezOpenT(){
+    window.open(
+        'https://leehb0927.github.io/cheznousaparis/','popup', 'width=1091 height=900, left=100, top=20'
+    )
+}
