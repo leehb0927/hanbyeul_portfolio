@@ -175,10 +175,10 @@ a {
 }
 .photoshop_btn {
     margin-left: 146px;
-    margin-top: 138px;
+    margin-top: 180px;
 }
 .photoshop_btn span {
-    font-size: 85px;
+    font-size: 30px;
     color: #000;
 }
 
@@ -318,6 +318,7 @@ a {
 .profile_tit h1 {
     font-size:80px;
     letter-spacing: 5px;
+    margin-left: 100px;
 }
 
 
@@ -359,12 +360,36 @@ a {
     }
     .name, .birth {
         font-size: 20px;
+        color: #0000009c;
     }
     .edu, .lic {
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: 500;
         font-size: 13px;
+        color: #0000009c;
     }
+
+
+    .contect {
+        font-size:50px;
+        margin-left: 10px;
+    }
+    .contect_list {
+        margin-left: 10px;
+    }
+    .contect_list > li {
+        float: left;
+        text-align: center;
+        margin:10px 20px 10px 0;
+        color: #0000009c;
+    }
+    .contect_list > li > img {
+        width: 20px;
+        height: 30px;
+        filter: opacity(0.7);
+    }
+
+
 
 
 .skill {
@@ -597,7 +622,7 @@ a {
 
 
 .resp_left {
-    padding: 250px 200px 200px 13vw;
+    padding: 170px 200px 200px 13vw;
 }
 .resp_left > h2 {
     font-size: 50px;
@@ -650,7 +675,7 @@ a {
 }
 
 .boot_right {
-    padding: 250px 200px 200px 5vw;
+    padding: 200px 200px 200px 5vw;
 }
 .boot_right > h2 {
     font-size: 50px;
@@ -682,3 +707,61 @@ a {
     .web_view_btn a:hover, .mobile_view_btn a:hover ,.resp_view_btn a:hover , .boot_view_btn a:hover{
         color: #000000;
     }
+
+    .web_view_btn a::after,
+    .mobile_view_btn a::after,
+    .resp_view_btn a::after,
+    .boot_view_btn a::after
+    {
+        display: block;
+        content: '';
+        margin-top: 10px;
+        width: 0px;
+        height: 1px;
+        background: #c2c2c2;
+        transition: 1s;
+    }
+    .web_view_btn a:hover::after,
+    .mobile_view_btn a:hover::after,
+    .resp_view_btn a:hover::after,
+    .boot_view_btn a:hover::after
+    {
+        display: block;
+        content: '';
+        margin-top: 10px;
+        width: 150px;
+        height: 1px;
+    }
+    .web_view_btn a:hover::after {
+        background: #d4ecc3;
+    }
+    
+    .mobile_view_btn a:hover::after {
+        background: #f1e8b5;
+    }
+    .resp_view_btn a:hover::after {
+        background: #e097cc;
+    }
+    .boot_view_btn a:hover::after {
+        background: #cfe0e3;
+    }
+
+
+
+
+
+.resp_view_btn_m, .resp_view_btn_t, .boot_view_btn_m, .boot_view_btn_t  {
+    font-size: 15px;
+}
+.resp_view_btn_m >img, .resp_view_btn_t> img {
+    width: 10px;
+    margin-left: 5px;
+    filter: opacity(0.5);
+}
+
+.boot_view_btn_m > img, .boot_view_btn_t > img {
+    width: 10px;
+    margin-right: 5px;
+    filter: opacity(0.5);
+}
+
