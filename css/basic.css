@@ -133,12 +133,12 @@ a {
 
 
 .profile_btn {
-    margin-left: 95px;
-    margin-top: 120px;
+    margin-left: 5px;
+    margin-top: 150px;
 }
 .profile_btn > span {
-    font-size: 100px;
-    color: #000;
+    font-size: 40px;
+    color: #c29ffe;
 }
 .web_btn {
     margin-left: 105px;
@@ -146,15 +146,15 @@ a {
 }
 .web_btn > span {
     font-size: 100px;
-    color: #000;
+    color: #aee68d;
 }
 .mobile_btn {
     margin-left:140px;
     margin-top: 130px;
 }
 .mobile_btn > span {
-    font-size: 90px;
-    color: #000;
+    font-size: 60px;
+    color: #a8cfff;
 }
 .repon_btn {
     margin-left: 150px;
@@ -163,15 +163,15 @@ a {
 .repon_btn > span {
     text-align: center;
     font-size: 80px;
-    color: #000;
+    color: #fbfedd;
 }
 .boot_btn {
-    margin-left: 146px;
-    margin-top: 130px;
+    margin-left: 80px;
+    margin-top: 160px;
 }
 .boot_btn span {
-    font-size: 90px;
-    color: #000;
+    font-size: 60px;
+    color: #83c6d2;
 }
 .photoshop_btn {
     margin-left: 146px;
@@ -179,7 +179,7 @@ a {
 }
 .photoshop_btn span {
     font-size: 30px;
-    color: #000;
+    color: #ff8733;
 }
 
 
@@ -306,7 +306,7 @@ a {
 
 
 #s1 {
-    background:url('../img//graphpaper.jpg') no-repeat
+    background:url('../img//graphpaper.jpg') no-repeat fixed
 }
 .s1_cont {
     margin-top: 80px;
@@ -531,7 +531,7 @@ a {
 
 
 #s3 {
-    background:url('../img//graphpaper.jpg') no-repeat
+    background:url('../img//graphpaper.jpg') no-repeat fixed
 }
 .s3_cont {
     margin-top: 80px;
@@ -704,7 +704,7 @@ a {
     color: #c2c2c2;
     transition: 0.8s;
 }
-    .web_view_btn a:hover, .mobile_view_btn a:hover ,.resp_view_btn a:hover , .boot_view_btn a:hover{
+    .web_view_btn a:hover, .mobile_view_btn a:hover ,.resp_view_btn a:hover , .boot_view_btn a:hover {
         color: #000000;
     }
 
@@ -750,6 +750,7 @@ a {
 
 
 
+
 .resp_view_btn_m, .resp_view_btn_t, .boot_view_btn_m, .boot_view_btn_t  {
     font-size: 15px;
 }
@@ -764,4 +765,65 @@ a {
     margin-right: 5px;
     filter: opacity(0.5);
 }
+/*view site button ------ end*/
 
+
+
+
+
+
+
+
+
+
+#s6 {
+    background: url('../img/KakaoTalk_20220205_151747725.jpg') no-repeat fixed 50% 50%/100% 100%;
+}
+
+.s6_cont {
+    margin-top: 270px;
+}
+.pho_tit {
+    float: left;
+}
+.pho_tit h1 {
+    font-size:80px;
+    letter-spacing: 5px;
+    margin-left: 100px;
+}
+.pho_tit p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:20px;
+    font-weight: 100;
+    margin:30px 0 0 100px;
+    color:#8b8b8b;
+}
+
+.pho_view_btn {
+    margin-left: 100px;
+}
+.pho_view_btn a {
+    font-size: 40px;
+    color: #c2c2c2;
+    transition: 0.8s;
+}
+.pho_view_btn a:hover {
+    color: #000000;
+}
+.pho_view_btn a::after {
+    display: block;
+    content: '';
+    margin-top: 10px;
+    width: 0px;
+    height: 1px;
+    background: #ff8733;
+    transition: 1s;
+}
+.pho_view_btn a:hover::after {
+    display: block;
+    content: '';
+    margin-top: 10px;
+    width: 150px;
+    height: 1px;
+}
+/*-----------------------------------.section #s6*/
